@@ -9,4 +9,6 @@ def nyc_pigeon_organizer(data)
       new_hash[:name] = keys
       binding.pry
       new_hash
+    end
+  end
 end
