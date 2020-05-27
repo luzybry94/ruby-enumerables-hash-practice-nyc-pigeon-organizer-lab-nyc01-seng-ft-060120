@@ -5,16 +5,18 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     binding.pry
     value.each do |new_value, names|
+      binding.pry
       names.each do |name|
-        
+        binding.pry
         if !new_hash[name]
           new_hash[name] = {}
         end
+        binding.pry
 
         if !new_hash[name][key]
           new_hash[name][key] = []
         end
-
+binding.pry
         new_hash[name][key] << new_value.to_s
 
       end
