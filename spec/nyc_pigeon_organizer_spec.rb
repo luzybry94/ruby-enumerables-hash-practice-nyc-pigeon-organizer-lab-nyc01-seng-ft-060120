@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+require_relative '../nyc_pigeon_organizer'
 describe "NYC Pigeon Organizer" do
 
   describe "#nyc_pigeon_organizer" do
